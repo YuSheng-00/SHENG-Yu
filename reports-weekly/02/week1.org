@@ -4,6 +4,7 @@
 - papers(论文):
 1. Dynamically Fused Graph Network for Multi-hop Reasoning  动态融合的图神经网络 给定多个输入长文本，
 识别文本中的命名实体并构建知识图，沿着动态实体图找到答案实体 创新点：动态子图的生成，模拟了人的推理过程   难点：multi-hop reasoning
+
 2. Augmenting Neural Networks with First-order Logic  将表示问题约束的声明性逻辑语句编译成计算图，作为网络的增强层引入
 神经网络框架   实验任务：文本理解，文本分类，自然语言推理   创新点：以将谓词和神经元绑定的方式给神经元“命名”，某种程度上赋予了
 “语义”的概念    局限：规则必须是“前提 -> 结论”的标准形式
