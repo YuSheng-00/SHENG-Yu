@@ -2,7 +2,7 @@
 
 #  简历
 * 照片
-[[file:photo-SHENG-Yu.jpg]
+[[file:photo-SHENG-Yu.jpg]]
 * 导师信息
 - 学籍导师：李林静
 - 具体指导导师：
