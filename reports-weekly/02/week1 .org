@@ -13,6 +13,7 @@
 部分，学习建图思路和从图中进行信息提取的网络结构和方法
 
 分层图神经网络（略看，下周再看一下）：
+
 4 Hierarchical Graph Neural Networks for Few-Shot Learning  由自下而上推理、自顶向下推理和跳过连接三部分组成，
 以实现对多层次关系的有效学习
 
@@ -34,11 +35,15 @@
 
 - experiments(实验设计&结果):
 1.baseline  
+
 输入：前提+结论的直接拼接   
+
 模型：bert+微调   
+
 效果：差，37.375%，高于随机33%一点
 
 2.数据处理：
+
 对于premises-fol数据，谓词、逻辑符号等逻辑成分的提取，可用于后续ner模型的训练
 * Teams and Services
   1. 组会
