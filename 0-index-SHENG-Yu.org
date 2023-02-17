@@ -8,7 +8,7 @@
 
 * Specific Research Progress
 ** - neural-symbolic system research  [[file:./research/neural-symbolic/review.org]]
-  - first-order enhanced natural language inference [[file:./research/neural-symbolic/fol-nli research.org]]
+  - first-order enhanced natural language inference [[file:./research/neural-symbolic/fol-nli.org]]
 * Future Research Ideas
 
 
