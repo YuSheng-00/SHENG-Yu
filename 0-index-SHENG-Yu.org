@@ -7,7 +7,7 @@
 - 2023-02-13 -- 2023-02-19  [[file:./reports-weekly/02/week1.org]]
 
 * Specific Research Progress
-** - neural-symbolic system research  [[file:./research/neural-symbolic/review.org]]
+** - neural-symbolic system research  [[file:./research/neural-symbolic/overview.org]]
   - first-order enhanced natural language inference [[file:./research/neural-symbolic/fol-nli.org]]
 * Future Research Ideas
 
