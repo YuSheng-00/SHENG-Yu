@@ -1,19 +1,19 @@
 # -*- coding: utf-8; mode: org -*-
 
 * Basic information
-- [[file:resume-ZHANG-Ji.org]]
+- [[file:resume-SHENG-Yu.org]]
 
 * Weekly Reports
-- 2023-02-13 -- 2023-02-19  file:./reports-weekly/02/week_01.org
+- 2023-02-13 -- 2023-02-19  [[file:./reports-weekly/02_week1.org]]
 
 * Specific Research Progress
-** neural-symbolic system research  [[file:./research/neural-symbolic/review.org]]
-  - first-order enhanced natural language inference file:./research/neural-symbolic/FOL-NLI_research.org
+** - neural-symbolic system research  [[file:./research/neural-symbolic/review.org]]
+  - first-order enhanced natural language inference [[file:./research/neural-symbolic/FOL-NLI_research.org]]
 * Future Research Ideas
 
 
 * Semester Planning and Reports
-- Spring 2023 [[file:reports-others/2022-spring.org]]
+- Spring 2023 [[file:reports-others/2023-spring.org]]
 
 
   
