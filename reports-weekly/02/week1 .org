@@ -2,21 +2,21 @@
 
 * Research Activities
 - papers(论文):
-1. Dynamically Fused Graph Network for Multi-hop Reasoning  动态融合的图神经网络 给定多个输入长文本，
+1 Dynamically Fused Graph Network for Multi-hop Reasoning  动态融合的图神经网络 给定多个输入长文本，
 识别文本中的命名实体并构建知识图，沿着动态实体图找到答案实体 创新点：动态子图的生成，模拟了人的推理过程   难点：multi-hop reasoning
 
-2. Augmenting Neural Networks with First-order Logic  将表示问题约束的声明性逻辑语句编译成计算图，作为网络的增强层引入
+2 Augmenting Neural Networks with First-order Logic  将表示问题约束的声明性逻辑语句编译成计算图，作为网络的增强层引入
 神经网络框架   实验任务：文本理解，文本分类，自然语言推理   创新点：以将谓词和神经元绑定的方式给神经元“命名”，某种程度上赋予了
 “语义”的概念    局限：规则必须是“前提 -> 结论”的标准形式
 
-3.Learning to Guide a Saturation-Based Theorem Prover  基于强化学习的神经定理证明器  重看，重点学习建立一阶逻辑表达式对应的
+3 Learning to Guide a Saturation-Based Theorem Prover  基于强化学习的神经定理证明器  重看，重点学习建立一阶逻辑表达式对应的
 部分，学习建图思路和从图中进行信息提取的网络结构和方法
 
 分层图神经网络（略看，下周再看一下）：
-4.Hierarchical Graph Neural Networks for Few-Shot Learning  由自下而上推理、自顶向下推理和跳过连接三部分组成，
+4 Hierarchical Graph Neural Networks for Few-Shot Learning  由自下而上推理、自顶向下推理和跳过连接三部分组成，
 以实现对多层次关系的有效学习
 
-5.Hierarchical Graph Representation Learning with Differentiable Pooling ：在传统GNN后对节点进行聚类，并利用聚类节点的embedding
+5 Hierarchical Graph Representation Learning with Differentiable Pooling ：在传统GNN后对节点进行聚类，并利用聚类节点的embedding
 建立新图，不断重复该过程并进行信息提取，最终得到反应图结构的信息   创新点：软聚类+池化层  以对节点分类的方式对图上的信息提取分层进行，对
 图分类任务影响更大
 
@@ -33,9 +33,13 @@
 2.bert微调模型 构建+训练+输入文本处理形式
 
 - experiments(实验设计&结果):
-1.baseline  输入：前提+结论的直接拼接   模型：bert+微调   效果：差，37.375%，高于随机33%一点
+1.baseline  
+输入：前提+结论的直接拼接   
+模型：bert+微调   
+效果：差，37.375%，高于随机33%一点
 
-2.数据处理：对于premises-fol数据，谓词、逻辑符号等逻辑成分的提取，可用于后续ner模型的训练
+2.数据处理：
+对于premises-fol数据，谓词、逻辑符号等逻辑成分的提取，可用于后续ner模型的训练
 * Teams and Services
   1. 组会
 陈诺  动态规划&强化学习&最优控制&微分博弈的统一视角分析
