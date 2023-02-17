@@ -1,0 +1,35 @@
+# -*- coding: utf-8; mode: org -*-
+
+** Overall-how to do research
+*** overall research process
+
+*** motivation for technical work and impact statements
+
+*** literature review and research questions
+
+*** research plan and execution
+
+
+** Reviewing academic papers by others
+*** independent assessment
+*** learn about the subject topics
+*** learn the expectation of target publication outlets
+
+** Writing academic papers
+*** structural clarity
+- PPT first; Word later
+*** language skills
+- learning from good writers
+
+*** how to write math and formalism
+*** how to summarize and motivate
+*** how to describe experiments
+
+** Presentation skills
+*** PPT rules and advice
+
+*** Know your audience
+
+
+** Communication skills
+
