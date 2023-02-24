@@ -1,0 +1,73 @@
+# -*- coding: utf-8; mode: org -*-
+
+* Research Activities
+- papers(论文):
+图神经网络综述：
+1.Computing Graph Neural Networks: A Survey from Algorithms to Accelerators
+
+2.A Comprehensive Survey on Graph Neural Networks：比较全面且清晰的综述：图神经网络被分为四类
+：递归图神经网络、卷积图神经网络、图自编码器和时空图神经网络
+
+多层次图卷积网络：
+3. ComQA:Compositional Question Answering via Hierarchical Graph Neural Networks
+
+建立逻辑图方法：
+4. Representing First-Order Logic Using Graphs：早期研究，和实际出发点不符
+- ideas(新的想法):
+分层图卷积操作
+
+* Project Activities
+- code learning(代码学习):
+1.comQA代码
+
+2.exp1:将一阶逻辑表达式处理成图形式 + 图卷积神经网络原理+实现
+- experiments(实验设计&结果):
+1.exp0:(baseline)根据原论文改小学习率，效果明显提升，从37%升到了45%左右
+
+2.exp1：逻辑图表示（初步粗糙建图方法）+图卷积神经网络结构 效果不理想，和baseline相比提升不大
+
+原因分析： 1.建图过程中丢失了baseline中自然语言语义部分   2.建图方法丢掉了一阶逻辑的部分表达能力
+          3.考虑引入图注意力等图算法上的优化
+* Teams and Services
+  1. 组会
+施：可解释AI
+
+盛：一阶逻辑+图卷积的实验结果 + 安排 [[../组会/一阶逻辑+图卷积实验结果汇报.pptx]]
+
+2.周三：关于chatGPT给研究带来的影响/机遇的讨论
+
+潜在研究方向：
+
+（1）大模型+领域知识的结合
+（2）chatGPT在人类评价标准上取得了很大的进步-->提出新的任务/数据集（专用）/评价指标
+（3）利用大模型的能力：加上prompt(提示工程），帮助产生一些数据辅助研究
+
+
+* Lessons Learned
+- 经典知识学习
+深度学习书 第12章
+
+神经网络分布式训练（包括一些训练加速方法）
+* Problems Encountered
+- prob 1
+问题：上周的问题baseline 效果差
+
+解决方案:参考原论文参数设置，调小学习率
+
+是否已解决：是
+
+- prob 2
+问题：exp1:引入图结构后，性能和预期不符
+
+解决方案：按照上面实验分析部分的3条原因，继续进行模型结构优化和实验
+
+是否已解决：否
+* Plan
+1.模型改进工作+实验：
+
+学习图注意力网络和其他图上的改进算法，看完图综述后面的图自编码和时空序列模型部分，记录+总结
+继续搜索相关文献和方法
+
+2.学习linux操作系统的基本知识
+
+3.（关注领域进展）看2篇神经符号方向近期的新论文
