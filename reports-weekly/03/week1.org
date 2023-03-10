@@ -1,0 +1,48 @@
+# -*- coding: utf-8; mode: org -*-
+
+* Research Activities
+- papers(论文):
+1. Graph Pooling for Graph Neural Networks: Progress, Challenges, and Opportunities
+
+   图神经网络节点信息pooling的方法（多应用于分类任务中）：Flat pooling（直接最大池化或平均池化）  Hierarchical pooling(分层池化，又可以分为node clustering pooling 和 node drop pooling,前者是将所有node聚类后生成一个规模更小的图网络，后者直接从node中进行采样）
+
+- ideas(新的想法):
+
+
+* Project Activities
+- code learning(代码学习):
+  1.transformer +BERT 原论文阅读+手动代码实现
+  2.点积注意力机制实现（需要注意第一维为batch_size输入时，需要利用squeeze的维度变化）
+  3、GAT网络
+
+- experiments(实验设计&结果):
+  实验设置：GCN+结论+前提的CLS直接拼接+多分类（softmax)
+  实验结果：在30个epoch处train set可以达到78%但并未收敛，但是在valid test上性能明显下降
+* Teams and Services
+  1. 组会
+     李：符号学习+强化学习 （符号：描述性的动作/规则）
+     曾：语音+文字多模态  发现：在处理多模态数据时，如果文字-文字的同构信息加attention,效果提升；如果是文字-语音这样的异构信息加attention,效果反而会下降，说明在跨模态的attention对齐机制上仍然存在问题
+     
+* Lessons Learned
+- 经典知识学习
+无
+* Problems Encountered
+- prob 1
+问题：
+发现网络突然不work,参数不更新
+解决方案:
+从头排查代码，发现数据处出现错误  总结：注意pytorch中的自动广播机制引起的维度变化   以及深/浅拷贝问题带来的变量值/维度改变
+是否已解决：
+是
+- prob 2
+问题：
+valid set上效果性能提升不明显
+解决方案：
+（1）加一些norm等缓解过拟合的手段  （2）查看数据分布情况  （3）了解更多网络优化方法
+是否已解决：
+否，需要进一步学习优化知识并探索
+
+* Plan:
+1.按照实验表进行6次实验，并记录结果
+2.针对valid set的问题进行改进
+3.合理安排时间，多一些看论文/学习领域经典知识的时间
